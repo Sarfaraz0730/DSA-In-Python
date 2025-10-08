@@ -1,11 +1,17 @@
-
-myVar = 25
-
-myVar2 =25.3
-
-myVar3= 25+ 4j
+a =10
 
 
-print (type(myVar))
-print (type(myVar2))
-print (type(myVar3))
+
+# comparator operators
+
+b =10
+
+print(a==b)
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
+print(a!=b)
+
+
+print(a)
