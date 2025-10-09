@@ -1,17 +1,6 @@
-a =10
+n = int(input("enter a number: "))
 
-
-
-# comparator operators
-
-b =10
-
-print(a==b)
-print(a>b)
-print(a>=b)
-print(a<b)
-print(a<=b)
-print(a!=b)
-
-
-print(a)
+if n%2==0:
+    print("Yes")
+else:
+    print("No")
