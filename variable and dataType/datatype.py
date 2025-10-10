@@ -1,6 +1,8 @@
-n = int(input("enter a number: "))
-
-if n%2==0:
-    print("Yes")
+a = 5
+b = 10
+if a * 2 == b:
+    print("Equal")
+elif b % 2 == 0:
+    print("Even")
 else:
-    print("No")
+    print("None")
