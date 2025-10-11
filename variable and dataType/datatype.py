@@ -49,21 +49,44 @@
 
 # "Fail" otherwise
 
-maths = int(input("Enter marks of Maths: "))
-eng= int(input("Enter marks of eng: "))
-sci = int(input("Enter marks of sci: "))
+# maths = int(input("Enter marks of Maths: "))
+# eng= int(input("Enter marks of eng: "))
+# sci = int(input("Enter marks of sci: "))
 
 
 
 
-average = (maths + eng+ sci)/3
+# average = (maths + eng+ sci)/3
 
-if average > 90:
+# if average > 90:
 
-    print("Excellent")
-elif average >=75 and average<=90:
-    print("Good")
-elif average > 50 and average <=75:
-    print("Average")
-else:
-    print("Fail")
+#     print("Excellent")
+# elif average >=75 and average<=90:
+#     print("Good")
+# elif average > 50 and average <=75:
+#     print("Average")
+# else:
+#     print("Fail")
+
+
+# x = 10
+# if x > 5:
+#     # true
+#     if x < 15:
+#         # true
+#         if x != 10:
+#             # false
+#             print("Alpha")
+#         else:
+#             # true 
+#             print("Beta")
+#     else:
+#         print("Gamma")
+# else:
+#     print("Delta")
+
+age =20
+
+status = "Adult" if age >= 18 else "Minor"
+
+print(status)
