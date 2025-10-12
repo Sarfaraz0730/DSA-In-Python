@@ -18,15 +18,21 @@
 #     sum +=i
 # print("Sum is : ", sum)
 
-n = int(input("Enter a number: " ))
+# n = int(input("Enter a number: " ))
 
-str = ""
-for i in range(0,n):
+# str = ""
+# for i in range(0,n):
    
-   if(i%2==0):
-      str +="0"
+#    if(i%2==0):
+#       str +="0"
 
-   else:
-      str +="*"
+#    else:
+#       str +="*"
    
-print(str)
+# print(str)
+
+i=1
+while i <=5:
+    print("Hello World!", i)
+
+    i +=1
