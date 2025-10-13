@@ -70,11 +70,25 @@
 # Swap two numbers without using a third variable.
 
 
-num1 =int((input("Enter a number1:")))
+# num1 =int((input("Enter a number1:")))
 
-num2 =int((input("Enter a number2:")))
+# num2 =int((input("Enter a number2:")))
 
-num1, num2 = num2, num1
+# num1, num2 = num2, num1
 
-print(num1, num2)
+# print(num1, num2)
+
+
+# Find the square and cube of a given number.
+
+
+num = int(input("Enter a number: "))
+
+# square = num *num;
+square = num**2
+# cube = num* num * num
+cube = num**3
+
+print(square)
+print(cube)
 
