@@ -95,8 +95,18 @@
 
 # Take a user’s name and age; print “You’ll turn 100 years old in year ____.” 
 
-name = input("Enter your name:")
-age = int(input("Enter your age: " ))
+# name = input("Enter your name:")
+# age = int(input("Enter your age: " ))
 
-print(name," will turn 100 years old in year ", 2025 + (100-age))
+# print(name," will turn 100 years old in year ", 2025 + (100-age))
+
+# Input radius of a circle and find its area and circumference.
+
+radius = float(input("Enter radius of circle: "))
+
+area =3.14 * radius * radius
+circrumference = 2 * 3.14 * radius
+
+print("Area is: ", area)
+print("Circrumference is: ", circrumference)
 
