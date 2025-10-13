@@ -82,13 +82,21 @@
 # Find the square and cube of a given number.
 
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-# square = num *num;
-square = num**2
-# cube = num* num * num
-cube = num**3
+# # square = num *num;
+# square = num**2
+# # cube = num* num * num
+# cube = num**3
 
-print(square)
-print(cube)
+# print(square)
+# print(cube)
+
+
+# Take a user’s name and age; print “You’ll turn 100 years old in year ____.” 
+
+name = input("Enter your name:")
+age = int(input("Enter your age: " ))
+
+print(name," will turn 100 years old in year ", 2025 + (100-age))
 
