@@ -31,8 +31,50 @@
    
 # print(str)
 
-i=1
-while i <=5:
-    print("Hello World!", i)
+# i=1
+# while i <=5:
+#     print("Hello World!", i)
 
-    i +=1
+#     i +=1
+
+
+# Take two numbers as input and print their sum, difference, product, and quotient.
+
+
+# num1 =int(input("Enter first number: "));
+# num2 =int(input("Enter second number: "));
+
+# sum =num1 + num2
+# difference = abs(num1- num2)
+
+# quotient = num1/num2
+
+# print("sum : ", sum)
+# print("difference : ", difference)
+
+# print("quotient : ", quotient)
+
+# Given a number, check if it’s even or odd.
+
+
+# num =int((input("Enter a number:")))
+
+# if num%2==0:
+#     print("Even")
+
+# else: 
+#     print("Odd")
+
+
+
+# Swap two numbers without using a third variable.
+
+
+num1 =int((input("Enter a number1:")))
+
+num2 =int((input("Enter a number2:")))
+
+num1, num2 = num2, num1
+
+print(num1, num2)
+
