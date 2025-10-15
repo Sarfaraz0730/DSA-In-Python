@@ -44,3 +44,12 @@
 
 # for i in range(1, 11):
 #     print(n, "X", i , "=", n*i)
+
+
+
+# Count digits in a number (using while)  
+
+n = int(input("Enter a number: "))
+
+count = 0
+
